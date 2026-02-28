@@ -166,8 +166,8 @@ if submitted:
     )
     st.pydeck_chart(deck, use_container_width=True)
 
-    with st.expander("🔎 debug (params sent to the API)"):
-        st.write(params)
+    # with st.expander("🔎 debug (params sent to the API)"):
+    #     st.write(params)
 
 st.divider()
 st.caption("💡 tip: change the coordinates to see the route update. no model file here, just an API call ✨")
